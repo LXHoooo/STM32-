@@ -1,0 +1,13 @@
+..\obj\filters.o: ..\Speex_Lib\STM32\libspeex\filters.c
+..\obj\filters.o: ..\Speex_Lib\STM32\config.h
+..\obj\filters.o: ..\Speex_Lib\libspeex\filters.h
+..\obj\filters.o: ..\Speex_Lib\libspeex\arch.h
+..\obj\filters.o: ..\Speex_Lib\include\speex/speex_types.h
+..\obj\filters.o: ..\Speex_Lib\STM32\include\speex/speex_config_types.h
+..\obj\filters.o: ..\Speex_Lib\libspeex\fixed_generic.h
+..\obj\filters.o: ..\Speex_Lib\libspeex\stack_alloc.h
+..\obj\filters.o: ..\Speex_Lib\libspeex\math_approx.h
+..\obj\filters.o: ..\Speex_Lib\libspeex\ltp.h
+..\obj\filters.o: ..\Speex_Lib\include\speex/speex_bits.h
+..\obj\filters.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\filters.o: ..\Speex_Lib\STM32\libspeex\arm\filters_cortexM3.h

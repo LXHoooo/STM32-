@@ -1,0 +1,15 @@
+..\obj\speex.o: ..\Speex_Lib\libspeex\speex.c
+..\obj\speex.o: ..\Speex_Lib\STM32\config.h
+..\obj\speex.o: ..\Speex_Lib\libspeex\modes.h
+..\obj\speex.o: ..\Speex_Lib\include\speex/speex.h
+..\obj\speex.o: ..\Speex_Lib\include\speex/speex_bits.h
+..\obj\speex.o: ..\Speex_Lib\include\speex/speex_types.h
+..\obj\speex.o: ..\Speex_Lib\STM32\include\speex/speex_config_types.h
+..\obj\speex.o: ..\Speex_Lib\libspeex\arch.h
+..\obj\speex.o: ..\Speex_Lib\libspeex\fixed_generic.h
+..\obj\speex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\speex.o: ..\Speex_Lib\libspeex\os_support.h
+..\obj\speex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\speex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\speex.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\speex.o: ..\Speex_Lib\STM32\config.h

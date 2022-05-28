@@ -1,0 +1,9 @@
+..\obj\vq.o: ..\Speex_Lib\STM32\libspeex\vq.c
+..\obj\vq.o: ..\Speex_Lib\STM32\config.h
+..\obj\vq.o: ..\Speex_Lib\libspeex\vq.h
+..\obj\vq.o: ..\Speex_Lib\libspeex\arch.h
+..\obj\vq.o: ..\Speex_Lib\include\speex/speex_types.h
+..\obj\vq.o: ..\Speex_Lib\STM32\include\speex/speex_config_types.h
+..\obj\vq.o: ..\Speex_Lib\libspeex\fixed_generic.h
+..\obj\vq.o: ..\Speex_Lib\libspeex\stack_alloc.h
+..\obj\vq.o: ..\Speex_Lib\STM32\libspeex\arm\vq_cortexM3.h

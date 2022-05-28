@@ -1,0 +1,10 @@
+..\obj\lsp.o: ..\Speex_Lib\libspeex\lsp.c
+..\obj\lsp.o: ..\Speex_Lib\STM32\config.h
+..\obj\lsp.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\lsp.o: ..\Speex_Lib\libspeex\lsp.h
+..\obj\lsp.o: ..\Speex_Lib\libspeex\arch.h
+..\obj\lsp.o: ..\Speex_Lib\include\speex/speex_types.h
+..\obj\lsp.o: ..\Speex_Lib\STM32\include\speex/speex_config_types.h
+..\obj\lsp.o: ..\Speex_Lib\libspeex\fixed_generic.h
+..\obj\lsp.o: ..\Speex_Lib\libspeex\stack_alloc.h
+..\obj\lsp.o: ..\Speex_Lib\libspeex\math_approx.h

@@ -1,0 +1,1380 @@
+Dependencies for Project '音频采集播放', Target '音频采集播放': (DO NOT MODIFY !)
+F (.\main.c)(0x61B41968)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (common.h)(0x61AF1F7E)
+I (stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x4D783CAB)
+I (stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\DAC\DAC.h)(0x61AED9B5)
+I (..\HARDWARE\ADC\ADC.h)(0x61AF1F7E)
+I (..\HARDWARE\KEY\Key.h)(0x614DCE53)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\HARDWARE\NVIC\NVIC.h)(0x61AF1F7E)
+I (..\HARDWARE\LED\LED.h)(0x614DC837)
+I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
+I (..\HARDWARE\NRF24L01\24l01.h)(0x61932201)
+I (..\HARDWARE\SPI\spi.h)(0x532D27CD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (..\SYSTEM\usart\usart.h)(0x50517A83)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB1DBC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (.\stm32f10x_it.c)(0x4EBEACB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_it.o --omf_browse ..\obj\stm32f10x_it.crf --depend ..\obj\stm32f10x_it.d)
+I (stm32f10x_it.h)(0x4D99A427)
+I (stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x4D783CAB)
+I (stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (.\system_stm32f10x.c)(0x512C4567)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\system_stm32f10x.o --omf_browse ..\obj\system_stm32f10x.crf --depend ..\obj\system_stm32f10x.d)
+I (stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (system_stm32f10x.h)(0x4D783CAB)
+I (stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\core_cm3.o --omf_browse ..\obj\core_cm3.crf --depend ..\obj\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\CORE\startup_stm32f10x_hd.s)(0x6192247B)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x614F17AC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_adc.o --omf_browse ..\obj\stm32f10x_adc.crf --depend ..\obj\stm32f10x_adc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_bkp.o --omf_browse ..\obj\stm32f10x_bkp.crf --depend ..\obj\stm32f10x_bkp.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_can.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_can.o --omf_browse ..\obj\stm32f10x_can.crf --depend ..\obj\stm32f10x_can.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_cec.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_crc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_crc.o --omf_browse ..\obj\stm32f10x_crc.crf --depend ..\obj\stm32f10x_crc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_dac.o --omf_browse ..\obj\stm32f10x_dac.crf --depend ..\obj\stm32f10x_dac.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_dbgmcu.o --omf_browse ..\obj\stm32f10x_dbgmcu.crf --depend ..\obj\stm32f10x_dbgmcu.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_dma.o --omf_browse ..\obj\stm32f10x_dma.crf --depend ..\obj\stm32f10x_dma.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_exti.o --omf_browse ..\obj\stm32f10x_exti.crf --depend ..\obj\stm32f10x_exti.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_flash.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_flash.o --omf_browse ..\obj\stm32f10x_flash.crf --depend ..\obj\stm32f10x_flash.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_fsmc.o --omf_browse ..\obj\stm32f10x_fsmc.crf --depend ..\obj\stm32f10x_fsmc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_gpio.o --omf_browse ..\obj\stm32f10x_gpio.crf --depend ..\obj\stm32f10x_gpio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_i2c.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_i2c.o --omf_browse ..\obj\stm32f10x_i2c.crf --depend ..\obj\stm32f10x_i2c.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_iwdg.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_iwdg.o --omf_browse ..\obj\stm32f10x_iwdg.crf --depend ..\obj\stm32f10x_iwdg.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_pwr.o --omf_browse ..\obj\stm32f10x_pwr.crf --depend ..\obj\stm32f10x_pwr.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_rcc.o --omf_browse ..\obj\stm32f10x_rcc.crf --depend ..\obj\stm32f10x_rcc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_rtc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_rtc.o --omf_browse ..\obj\stm32f10x_rtc.crf --depend ..\obj\stm32f10x_rtc.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_sdio.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_sdio.o --omf_browse ..\obj\stm32f10x_sdio.crf --depend ..\obj\stm32f10x_sdio.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_spi.o --omf_browse ..\obj\stm32f10x_spi.crf --depend ..\obj\stm32f10x_spi.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_tim.o --omf_browse ..\obj\stm32f10x_tim.crf --depend ..\obj\stm32f10x_tim.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_usart.o --omf_browse ..\obj\stm32f10x_usart.crf --depend ..\obj\stm32f10x_usart.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_wwdg.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\stm32f10x_wwdg.o --omf_browse ..\obj\stm32f10x_wwdg.crf --depend ..\obj\stm32f10x_wwdg.d)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\delay\delay.c)(0x55CC2E5D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\sys\sys.c)(0x55CC2E79)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\usart\usart.c)(0x5DE212BD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x50517A83)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\README.TXT)(0x617E0182)()
+F (..\SEGGER\RTT\SEGGER_RTT.c)(0x6177F5EF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\segger_rtt.o --omf_browse ..\obj\segger_rtt.crf --depend ..\obj\segger_rtt.d)
+I (..\SEGGER\RTT\SEGGER_RTT.h)(0x6177F5F0)
+I (..\SEGGER\RTT\SEGGER_RTT_Conf.h)(0x6177F5F0)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\SEGGER\RTT\SEGGER_RTT_printf.c)(0x6177F5F0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\segger_rtt_printf.o --omf_browse ..\obj\segger_rtt_printf.crf --depend ..\obj\segger_rtt_printf.d)
+I (..\SEGGER\RTT\SEGGER_RTT.h)(0x6177F5F0)
+I (..\SEGGER\RTT\SEGGER_RTT_Conf.h)(0x6177F5F0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5475F2FA)
+F (..\Speex_Lib\libspeex\bits.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\bits.o --omf_browse ..\obj\bits.crf --depend ..\obj\bits.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (..\Speex_Lib\libspeex\buffer.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\buffer.o --omf_browse ..\obj\buffer.crf --depend ..\obj\buffer.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_buffer.h)(0x49FD136C)
+F (..\Speex_Lib\libspeex\lpc.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\lpc.o --omf_browse ..\obj\lpc.crf --depend ..\obj\lpc.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\lpc.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+F (..\Speex_Lib\libspeex\lsp.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\lsp.o --omf_browse ..\obj\lsp.crf --depend ..\obj\lsp.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\Speex_Lib\libspeex\lsp.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\stack_alloc.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\math_approx.h)(0x49FD136C)
+F (..\Speex_Lib\libspeex\gain_table_lbr.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\gain_table_lbr.o --omf_browse ..\obj\gain_table_lbr.crf --depend ..\obj\gain_table_lbr.d)
+F (..\Speex_Lib\libspeex\high_lsp_tables.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\high_lsp_tables.o --omf_browse ..\obj\high_lsp_tables.crf --depend ..\obj\high_lsp_tables.d)
+F (..\Speex_Lib\libspeex\speex.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\speex.o --omf_browse ..\obj\speex.crf --depend ..\obj\speex.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\modes.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (..\Speex_Lib\libspeex\speex_callbacks.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\speex_callbacks.o --omf_browse ..\obj\speex_callbacks.crf --depend ..\obj\speex_callbacks.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\include\speex/speex_callbacks.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (..\Speex_Lib\libspeex\speex_header.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\speex_header.o --omf_browse ..\obj\speex_header.crf --depend ..\obj\speex_header.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_header.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (..\Speex_Lib\libspeex\window.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\window.o --omf_browse ..\obj\window.crf --depend ..\obj\window.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+F (..\Speex_Lib\STM32\libspeex\cb_search.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\cb_search.o --omf_browse ..\obj\cb_search.crf --depend ..\obj\cb_search.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\cb_search.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\filters.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\stack_alloc.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\vq.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\math_approx.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Speex_Lib\STM32\libspeex\cb_search_cortexM3.h)(0x49FD136E)
+F (..\Speex_Lib\STM32\libspeex\filters.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\filters.o --omf_browse ..\obj\filters.crf --depend ..\obj\filters.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\filters.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\stack_alloc.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\math_approx.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\ltp.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\Speex_Lib\STM32\libspeex\arm\filters_cortexM3.h)(0x49FD136E)
+F (..\Speex_Lib\STM32\libspeex\ltp.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\ltp.o --omf_browse ..\obj\ltp.crf --depend ..\obj\ltp.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\Speex_Lib\libspeex\ltp.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\stack_alloc.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\filters.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\math_approx.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\Speex_Lib\STM32\libspeex\arm\ltp_cortexM3.h)(0x49FD136E)
+F (..\Speex_Lib\STM32\libspeex\modes.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\modes.o --omf_browse ..\obj\modes.crf --depend ..\obj\modes.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\modes.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\ltp.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\quant_lsp.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\cb_search.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\sb_celp.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\nb_celp.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_callbacks.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\vbr.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\filters.h)(0x49FD136C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\Speex_Lib\STM32\libspeex\nb_celp.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\nb_celp.o --omf_browse ..\obj\nb_celp.crf --depend ..\obj\nb_celp.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+I (..\Speex_Lib\libspeex\nb_celp.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\modes.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_callbacks.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\vbr.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\filters.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\lpc.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\lsp.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\ltp.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\quant_lsp.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\cb_search.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\stack_alloc.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\vq.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\math_approx.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+F (..\Speex_Lib\STM32\libspeex\quant_lsp.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\quant_lsp.o --omf_browse ..\obj\quant_lsp.crf --depend ..\obj\quant_lsp.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\quant_lsp.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\os_support.h)(0x5E5E84DD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
+F (..\Speex_Lib\STM32\libspeex\vq.c)(0x49FD136E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\vq.o --omf_browse ..\obj\vq.crf --depend ..\obj\vq.d)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\libspeex\vq.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\stack_alloc.h)(0x49FD136E)
+I (..\Speex_Lib\STM32\libspeex\arm\vq_cortexM3.h)(0x49FD136E)
+F (..\Speex_Lib\libspeex\exc_10_32_table.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\exc_10_32_table.o --omf_browse ..\obj\exc_10_32_table.crf --depend ..\obj\exc_10_32_table.d)
+F (..\Speex_Lib\libspeex\lsp_tables_nb.c)(0x49FD136C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\lsp_tables_nb.o --omf_browse ..\obj\lsp_tables_nb.crf --depend ..\obj\lsp_tables_nb.d)
+F (..\HARDWARE\ADC\ADC.c)(0x61B41A17)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\adc.o --omf_browse ..\obj\adc.crf --depend ..\obj\adc.d)
+I (..\HARDWARE\ADC\ADC.h)(0x61AF1F7E)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SEGGER\RTT\SEGGER_RTT.h)(0x6177F5F0)
+I (..\SEGGER\RTT\SEGGER_RTT_Conf.h)(0x6177F5F0)
+I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+F (..\HARDWARE\DAC\DAC.c)(0x61B4191A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\dac.o --omf_browse ..\obj\dac.crf --depend ..\obj\dac.d)
+I (..\HARDWARE\DAC\DAC.h)(0x61AED9B5)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\ADC\ADC.h)(0x61AF1F7E)
+F (..\HARDWARE\KEY\Key.c)(0x6177F5F0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\Key.h)(0x614DCE53)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
+F (..\HARDWARE\LED\LED.c)(0x614DC837)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\HARDWARE\LED\LED.h)(0x614DC837)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+F (..\HARDWARE\NVIC\NVIC.c)(0x61AF25C4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\nvic.o --omf_browse ..\obj\nvic.crf --depend ..\obj\nvic.d)
+I (..\HARDWARE\NVIC\NVIC.h)(0x61AF1F7E)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\LED\LED.h)(0x614DC837)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\HARDWARE\NRF24L01\24l01.h)(0x61932201)
+F (..\HARDWARE\EDCode\EDCode.c)(0x61AED863)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\edcode.o --omf_browse ..\obj\edcode.crf --depend ..\obj\edcode.d)
+I (..\HARDWARE\EDCode\EDCode.h)(0x61AEDC0B)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\Speex_Lib\STM32\config.h)(0x5E57CA94)
+I (..\Speex_Lib\include\speex/speex.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_bits.h)(0x49FD136C)
+I (..\Speex_Lib\include\speex/speex_types.h)(0x49FD136C)
+I (..\Speex_Lib\STM32\include\speex/speex_config_types.h)(0x49FD136E)
+I (..\Speex_Lib\libspeex\arch.h)(0x49FD136C)
+I (..\Speex_Lib\libspeex\fixed_generic.h)(0x49FD136C)
+F (..\HARDWARE\LCD\lcd.c)(0x61829809)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
+I (..\HARDWARE\LCD\lcd.h)(0x55CB1DBC)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5475F300)
+I (..\HARDWARE\LCD\font.h)(0x52C52FE7)
+I (..\SYSTEM\usart\usart.h)(0x50517A83)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
+F (..\HARDWARE\NRF24L01\24l01.c)(0x61936511)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\24l01.o --omf_browse ..\obj\24l01.crf --depend ..\obj\24l01.d)
+I (..\HARDWARE\NRF24L01\24l01.h)(0x61932201)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x55CC2E58)
+I (..\HARDWARE\SPI\spi.h)(0x532D27CD)
+F (..\HARDWARE\SPI\spi.c)(0x532D27BB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\Speex_Lib\include\speex -I..\Speex_Lib\libspeex -I..\Speex_Lib\STM32\include\speex -I..\Speex_Lib\STM32\libspeex\arm -I..\Speex_Lib\STM32 -I..\Speex_Lib\include -I..\Speex_Lib\STM32\include -I..\Speex_Lib\STM32\libspeex\gcc -I..\Speex_Lib\STM32\libspeex\iar -I..\SEGGER\RTT -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\KEY -I..\HARDWARE\LED -I..\HARDWARE\NVIC -I..\HARDWARE\EDCode -I..\HARDWARE\LCD -I..\HARDWARE\NRF24L01 -I..\HARDWARE\SPI-I "C:\Users\17293\Desktop\无线对讲机\speex无线语音传输 (实时)\USER\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DHAVE_CONFIG_H-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\HARDWARE\SPI\spi.h)(0x532D27CD)
+I (..\SYSTEM\sys\sys.h)(0x550F951A)
+I (..\USER\stm32f10x.h)(0x6146B330)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\USER\system_stm32f10x.h)(0x4D783CAB)
+I (..\USER\stm32f10x_conf.h)(0x55B0C93C)
+I (..\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_can.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_cec.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_crc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dbgmcu.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_flash.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x532AE24F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_iwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x504F415F)
+I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
